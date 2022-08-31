@@ -1,0 +1,24 @@
+{
+  "name": "weather-website-project",
+  "version": "1.0.0",
+  "description": "Know weather status all over the world",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hadymohammed/Weather-website-project.git"
+  },
+  "author": "Abdelhady Mohamed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hadymohammed/Weather-website-project/issues"
+  },
+  "homepage": "https://github.com/Hadymohammed/Weather-website-project#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}
