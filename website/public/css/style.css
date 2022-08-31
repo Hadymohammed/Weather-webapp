@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Lato&family=Source+Sans+Pro:wght@400;600&display=swap');
+html, body {
+    width: 100%;
+    height:100%;
+  }
+h1,h2,a{
+    margin: 0;
+}
+:root {
+    --font-color: #ffffff;
+    --background-color: #36486b;
+    --nav-background-color: #4040a1;
+
+  }
+body {
+    font-size: 20px;
+    color: var(--font-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-image: linear-gradient(to bottom, #51c3ff, #3dcfff, #2edaff, #2ee5ff, #3feffa, #46f4ef, #58f9e2, #6ffdd3, #87fdb9, #a3fb9e, #c1f884, #e1f26d);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.greatingText{
+    padding: 5% 0px 20px 5%;
+    width: 95%;
+    height: fit-content;
+}
+.itemsContainer{
+    height: fit-content;
+    width: 90%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weatherItemBox{
+    width: 97%;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1190c3ba;
+    border-radius: 10px;
+}
+.weatherItemBoxTop{
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.city{
+    width: fit-content;
+    height: auto;
+    padding-left: 5%;
+}
+.todayWeather{
+    width: fit-content;
+    height: auto;
+    padding-right: 5%;
+}
+.weekForcastContainer{
+    height: fit-content;
+    width: 90%;
+    margin-top: 20px;
+    padding: 2% 5% 2% 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.dayForcast{
+    width: 125px;
+    height: 125px;
+    margin-bottom: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+}
+.dayForcastDay{
+    width: 60px;
+    height: 40px;
+    background-color: white;
+}
+.dayForcastDate{
+    width: 60px;
+    height: 40px;
+    background-color: #ffffff;
+}
+.dayForcastDataBox{
+    width: 60px;
+    height: 80px;
+    background-color: white;
+}
+.dayForcastIconBox{
+    width: 60px;
+    height: 80px;
+    background-color: white;
+}
+
+
+
+
+
+
+
