@@ -1,3 +1,4 @@
+const apiKey='cefa903d59215f0aae790cb5f1c514c1'+'&units=imperial';
 let today=new Date();
 var options = { weekday: 'short', year: 'numeric', month: 'short' };
 

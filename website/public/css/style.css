@@ -45,83 +45,7 @@ body {
     width: 95%;
     height: fit-content;
 }
-.itemsContainer{
-    height: fit-content;
-    width: 90%;
-    padding: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.weatherItemBox{
-    width: 97%;
-    height: fit-content;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    background-color: #1190c3;
-    border-radius: 10px;
-}
-.weatherItemBoxTop{
-    font-size: 2.5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-}
-.city{
-    width: fit-content;
-    height: auto;
-    padding-left: 5%;
-}
-.todayWeather{
-    width: fit-content;
-    height: auto;
-    padding-right: 5%;
-}
-.weekForcastContainer{
-    height: fit-content;
-    width: 90%;
-    margin-top: 20px;
-    padding: 2% 5% 2% 5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-content: space-around;
-}
-.dayForcast{
-    width: 125px;
-    height: 125px;
-    margin-bottom: 10px;
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 5px;
-}
-.dayForcastDay{
-    width: 60px;
-    height: 40px;
-    background-color: white;
-}
-.dayForcastDate{
-    width: 60px;
-    height: 40px;
-    background-color: #ffffff;
-}
-.dayForcastDataBox{
-    width: 60px;
-    height: 80px;
-    background-color: white;
-}
-.dayForcastIconBox{
-    width: 60px;
-    height: 80px;
-    background-color: white;
-}
+/* Input section */
 .dataEntry{
     width: 100%;
     height: fit-content;
@@ -146,7 +70,8 @@ body {
     margin: 0px;
     max-width: 400px;
     border: solid #09afb3 2px;
-    border-right: 0px;
+    /* border-right: 0px; */
+    border-radius: 5px;
 }
 #generate{
     font-size: 1.5rem;
@@ -154,16 +79,59 @@ body {
     height: 100%;
     border: 2px 2px 2px 0px;
     border: solid #09afb3 2px;
-    border-left: 0px;
-    border-radius: 0px 5px 5px 0px;
+    /* border-left: 0px; */
+    border-radius: 5px;
     background-color: #ffed64;
     cursor: pointer;
     transition: all .5s;
+    margin-left: 5px;
 }
 #generate:hover{
     background-color: #09afb3;
     color: white;
 }
+.itemsContainer{
+    height: fit-content;
+    width: 70%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weatherItemBox{
+    width: 97%;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1190c3;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+#city{
+    width: fit-content;
+    height: auto;
+    font-size: 2.5rem;
+}
+.todayWeather{
+    width: fit-content;
+    height: auto;
+    padding-right: 5%;
+}
+/* display output data */
+
+#date{
+    margin: 10px;
+}
+#temp{
+    margin: 10px;
+}
+#content{
+    margin: 10px;
+}
+
 
 
 
