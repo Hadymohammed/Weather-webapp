@@ -60,7 +60,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-color: #1190c3ba;
+    background-color: #1190c3;
     border-radius: 10px;
 }
 .weatherItemBoxTop{
@@ -122,8 +122,48 @@ body {
     height: 80px;
     background-color: white;
 }
-
-
+.dataEntry{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.inputBox{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#cityEntry{
+    outline: none;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    width: 65%;
+    margin: 0px;
+    max-width: 400px;
+    border: solid #09afb3 2px;
+    border-right: 0px;
+}
+#generate{
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    height: 100%;
+    border: 2px 2px 2px 0px;
+    border: solid #09afb3 2px;
+    border-left: 0px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #ffed64;
+    cursor: pointer;
+    transition: all .5s;
+}
+#generate:hover{
+    background-color: #09afb3;
+    color: white;
+}
 
 
 
