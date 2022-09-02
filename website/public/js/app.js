@@ -27,8 +27,9 @@ async function getData(){
 
     //get Divs to display Data
     const cityNameDiv=document.getElementById('city');
-    const tempMaxDiv=document.getElementById('temp_max');
-    const tempMinDiv=document.getElementById('temp_min');
+    const cityDateDiv=document.getElementById('subDate');
+    const tempDiv=document.getElementById('temp');
+    const contentDiv=document.getElementById('content');
     const descDiv=document.getElementById('description');
 
     //fetch data from server side ///all/// end point
@@ -42,9 +43,11 @@ async function getData(){
     //request succeeded
     if(json.cod==200){
     cityNameDiv.innerHTML=json.name;
-    tempMaxDiv.innerHTML=`temp max : ${json.main.temp_max}`;
-    tempMinDiv.innerHTML=`temp min : ${json.main.temp_min}`;
+    cityDateDiv.innerHTML=` ${timestapm.toLocaleDateString("en-US", options)} , ${timestapm.toLocaleTimeString()}`;
+    tempDiv.innerHTML=`temp : ${Math.round(json.main.temp)} degrees`;
+    contentDiv.innerHTML=`feels :${json.main.feels_like} `;
     descDiv.innerHTML=`status : ${json.weather[0].description}`;
+
     console.log(json);
 
     //save request in history storage in server side
