@@ -43,7 +43,7 @@ async function getData(){
     if(json.cod==200){
     cityNameDiv.innerHTML=json.name;
     tempMaxDiv.innerHTML=`temp max : ${json.main.temp_max}`;
-    tempMinDiv.innerHTML=`temp max : ${json.main.temp_min}`;
+    tempMinDiv.innerHTML=`temp min : ${json.main.temp_min}`;
     descDiv.innerHTML=`status : ${json.weather[0].description}`;
     console.log(json);
 
