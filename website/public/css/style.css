@@ -122,13 +122,13 @@ body {
 }
 /* display output data */
 
-#date{
+#temp_max{
     margin: 10px;
 }
-#temp{
+#temp_min{
     margin: 10px;
 }
-#content{
+#description{
     margin: 10px;
 }
 
