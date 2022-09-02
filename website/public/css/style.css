@@ -122,14 +122,17 @@ body {
 }
 /* display output data */
 
-#temp_max{
-    margin: 10px;
-}
-#temp_min{
+#temp{
     margin: 10px;
 }
 #description{
     margin: 10px;
+}
+#content{
+    margin: 10px;
+}
+#subDate{
+    font-size: .9rem;
 }
 
 
