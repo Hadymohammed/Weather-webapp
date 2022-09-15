@@ -23,5 +23,11 @@ Build a resposive web app about weather status in a spacific city
 - Use APIs and fetch the date that i need.
 - Write async functions and handle promises.
 - Use git and cmd to have a prefect control with my updates in such project.
+### Running instructions 
+- Download the repo.
+- open repo directory in Terminal. 
+- Install 
+- type this **node server**.
+- open **http://localhost:8000/** on your browser.
 ### Auther
 ## Abdelhady Mohamed
