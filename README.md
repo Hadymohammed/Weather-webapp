@@ -29,5 +29,5 @@ Build a resposive web app about weather status in a spacific city
 - Install 
 - type this **node server**.
 - open **http://localhost:8000/** on your browser.
-### Auther
+### Author
 ## Abdelhady Mohamed
